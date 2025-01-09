@@ -1,0 +1,250 @@
+< class="haikei">
+<head>
+<title>譜面検索</title>
+<style>
+.haikei{background-color:rgba(0 0 0 / 20%)}
+input[type="checkbox"]:disabled{outline:2px solid black;outline-offset:-2px}
+</style>
+</head>
+<body>
+<fieldset id="dlfs">
+<legend>難易度で絞り込み</legend>
+<form name="diflv">
+<table>
+<tr onclick="toggleCheckboxes(event,this)"><td>EXPERT:</td>
+<td><label><input type="checkbox" name="dl" checked value="e30">30</label></td>
+<td><label><input type="checkbox" name="dl" checked value="e31">31</label></td></tr>
+<tr onclick="toggleCheckboxes(event,this)"><td>MASTER:</td>
+<td><label><input type="checkbox" name="dl" checked disabled value="m24">24</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m25">25</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m26">26</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m27">27</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m28">28</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m29">29</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m30">30</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m31">31</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m32">32</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m33">33</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m34">34</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m35">35</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m36">36</label></td>
+<td><label><input type="checkbox" name="dl" checked value="m37">37</label></td></tr>
+<tr onclick="toggleCheckboxes(event,this)"><td>APPEND:</td>
+<td><label><input type="checkbox" name="dl" checked value="a24">24</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a25">25</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a26">26</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a27">27</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a28">28</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a29">29</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a30">30</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a31">31</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a32">32</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a33">33</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a34">34</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a35">35</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a36">36</label></td>
+<td><label><input type="checkbox" name="dl" checked value="a37">37</label></td></tr>
+</table>
+</form>
+</fieldset>
+<form name="humen_type" class="a">
+<fieldset>
+<legend>譜面傾向で絞り込み</legend>
+<table>
+<tr onclick="toggleCheckboxes(event,this)"><td>○○難:</td>
+<td><label><input type="checkbox" name="tp" checked value="1">局所難</label></td>
+<td><label><input type="checkbox" name="tp" checked value="2">認識難</label></td>
+<td><label><input type="checkbox" name="tp" checked value="3">視認難</label></td>
+<td><label><input type="checkbox" name="tp" checked value="4">スライド難</label></td>
+<td><label><input type="checkbox" name="tp" checked value="5">フリック難</label></td>
+<td><label><input type="checkbox" name="tp" checked value="6">リズム難</label></td></tr>
+<tr onclick="toggleCheckboxes(event,this)"><td>配置難:</td>
+<td><label><input type="checkbox" name="tp" checked value="7">小粒ノーツ</label></td>
+<td><label><input type="checkbox" name="tp" checked value="8">1マスノーツ</label></td>
+<td><label><input type="checkbox" name="tp" checked value="9">トリル</label></td>
+<td><label><input type="checkbox" name="tp" checked value="10">乱打</label></td>
+<td><label><input type="checkbox" name="tp" checked value="11">階段</label></td>
+<td><label><input type="checkbox" name="tp" checked value="12">縦連</label></td>
+<td><label><input type="checkbox" name="tp" checked value="13">微縦連</label></td>
+<td><label><input type="checkbox" name="tp" checked value="14">盆踊り</label></td>
+<td><label><input type="checkbox" name="tp" checked value="15">交差・持ち替え</label></td>
+<td><label><input type="checkbox" name="tp" checked value="16">くの字</label></td></tr>
+</table><table>
+<tr onclick="toggleCheckboxes(event,this)"><td>その他:</td>
+<td><label><input type="checkbox" name="tp" checked value="17">長時間</label></td>
+<td><label><input type="checkbox" name="tp" checked value="18">ハネリズム</label></td>
+<td><label><input type="checkbox" name="tp" checked value="19">変拍子</label></td>
+<td><label><input type="checkbox" name="tp" checked value="20">物量</label></td>
+<td><label><input type="checkbox" name="tp" checked value="21">敷譜面</label></td>
+<td><label><input type="checkbox" name="tp" checked value="22">譜面停止</label></td>
+<td><label><input type="checkbox" name="tp" checked value="23">スライドのみの速度変化</label></td>
+<td><label><input type="checkbox" name="tp" checked value="24">タップ,フリックを含む速度変化</label></td></tr>
+</table>
+</fieldset>
+</form>
+<fieldset>
+<legend>オプション:<a id="mode">or</a><a id="mode2">検索</a>モード</legend>
+<label>検索or選曲(文字クリックで変更)<input type="checkbox" id="option2" onclick="change2()" checked style="display:none"></label><br>
+<label><a id="mode_2">検索</a>方法(文字クリックで変更)<input type="checkbox" id="option" onclick="change()" checked style="display:none"></label>
+</fieldset>
+<input style="padding:6px 12px 6px 12px;margin:0px 15px 0px 10px" type="button" value="検索" onclick="search()">
+<br><br>※諸注意
+<br>・難易度は検索オプションにかかわらずor検索で検索されます
+<p id="search_result"></p>
+</body>
+<script type="text/javascript">
+//グローバル変数宣言
+let rand = 0;
+let sett = [1,1];
+let search_types = [];//譜面傾向
+let search_diflv = [];//譜面レベル
+let search_diflv_e = [];
+let search_diflv_m = [];
+let search_diflv_a = [];
+let extractedIds = [];//レベルから変換したID
+let extractedIds_e = [];
+let extractedIds_m = [];
+let extractedIds_a = [];
+let extractedNames = [];//IDから変換した曲名
+let extractedNames_e = [];
+let extractedNames_m = [];
+let extractedNames_a = [];
+function search(){
+//初期化処理
+rand = 0;
+search_types = [];
+search_diflv = [];
+search_diflv_e = [];
+search_diflv_m = [];
+search_diflv_a = [];
+extractedIds = [];
+extractedIds_e = [];
+extractedIds_m = [];
+extractedIds_a = [];
+extractedNames = [];
+extractedNames_e = [];
+extractedNames_m = [];
+extractedNames_a = [];
+console.clear()
+document.getElementById("search_result").innerHTML = "";
+//難易度検索
+for(var i = 0; i < document.diflv.dl.length; i++){
+if(document.diflv.dl[i].checked){
+search_diflv.push(document.getElementsByName("dl")[i].value);
+}
+}
+//抽出した難易度を色ごとに分解
+search_diflv = search_diflv.map(item => item.trim());
+search_diflv_e = search_diflv.filter(item => item[0] === "e");
+search_diflv_m = search_diflv.filter(item => item[0] === "m");
+search_diflv_a = search_diflv.filter(item => item[0] === "a");
+//難易度→IDに変換
+extractIdsByLevel(sause_expert,search_diflv_e,extractedIds_e);//難易度→IDに変換(expert)
+extractIdsByLevel(sause_master,search_diflv_m,extractedIds_m);//難易度→IDに変換(master)
+extractIdsByLevel(sause_append,search_diflv_a,extractedIds_a);//難易度→IDに変換(append)
+//譜面傾向検索
+for(var i = 0; i < document.humen_type.tp.length; i++){
+if(document.humen_type.tp[i].checked){
+search_types.push(document.getElementsByName("tp")[i].value);
+}
+}
+search_types = search_types.map(Number);
+//途中経過
+console.log("検索方法:"+document.getElementById("mode").innerHTML+document.getElementById("mode2").innerHTML)
+console.log("検索対象Lv:"+search_diflv)
+console.log("検索対象傾向:"+search_types)
+if(search_types.length == 0&&search_diflv.length == 0){
+console.log('\u001b[31m'+"ERROR"+'\u001b[0m'+":何も選択されていないため検索を中断しました")
+}else if(search_types.length == 0){
+console.log('\u001b[31m'+"ERROR"+'\u001b[0m'+":検索対象傾向が選択されていないため検索を中断しました")
+}else if(search_diflv.length == 0){
+console.log('\u001b[31m'+"ERROR"+'\u001b[0m'+":検索対象Lvが選択されていないため検索を中断しました")
+}else{
+//譜面傾向とIDの組み合わせ検索兼IDを楽曲名に変換
+if(document.getElementById("option").checked){
+extractIdsAndNamesByTypes(sause_expert,search_types,extractedIds_e,extractedNames_e)
+extractIdsAndNamesByTypes(sause_master,search_types,extractedIds_m,extractedNames_m)
+extractIdsAndNamesByTypes(sause_append,search_types,extractedIds_a,extractedNames_a)
+}else{
+extractIdsAndNamesByAllTypes(sause_expert,search_types,extractedIds_e,extractedNames_e)
+extractIdsAndNamesByAllTypes(sause_master,search_types,extractedIds_m,extractedNames_m)
+extractIdsAndNamesByAllTypes(sause_append,search_types,extractedIds_a,extractedNames_a)
+}
+//最終結果出力
+extractedNames = [...extractedNames_e,...extractedNames_m,...extractedNames_a];
+if(extractedNames.length == 0){
+console.log("該当楽曲:存在しません")
+}else{
+if(document.getElementById("option2").checked){
+for(var i = 0; i < extractedNames.length; i++){
+console.log("該当楽曲:"+extractedNames[i])
+}
+console.log("該当楽曲:"+extractedNames.length+"曲")
+}else{
+rand = Math.floor(Math.random() * extractedNames.length);
+if(extractedNames[rand]=='のだ'||extractedNames[rand]=='のだ(APD)'){
+console.log("選ばれたのは「"+extractedNames[rand]+"」なのだ。")
+}else{
+console.log("選ばれたのは「"+extractedNames[rand]+"」でした。")
+}
+}
+}
+}
+}
+</script>
+<script type="text/javascript">//検索時に実行される関数
+function extractIdsByLevel(sause,targetLevels,result_p){//難易度→IDに変換
+const filtered = sause.filter(item => targetLevels.includes(item.level));
+result_p.length = 0;
+result_p.push(...filtered.map(item => item.id));
+}
+function extractIdsAndNamesByTypes(sause,targetTypes,targetIds,result_p){//or検索
+const filteredById = sause.filter(item => targetIds.includes(item.id));
+const filtered = filteredById.filter(item => targetTypes.some(type => item.type.includes(type)));
+result_p.length = 0;
+result_p.push(...filtered.map(item => item.name));
+}
+function extractIdsAndNamesByAllTypes(sause,targetTypes,targetIds,result_p){//and検索
+const filteredById = sause.filter(item => targetIds.includes(item.id));
+const filtered = filteredById.filter(item => targetTypes.every(type => item.type.includes(type)));
+result_p.length = 0;
+result_p.push(...filtered.map(item => item.name));
+}
+</script>
+<script type="text/javascript">//オプションに関する関数
+function toggleCheckboxes(event,element){//カテゴリまとめてON/OFF
+if(event.target.tagName === 'INPUT' || event.target.tagName === 'LABEL') return;
+const checkboxes = element.querySelectorAll('input[type="checkbox"]');
+if(checkboxes.length === 0) return;
+const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+if(allChecked){
+checkboxes.forEach(checkbox => {checkbox.checked = false})
+}else{
+checkboxes.forEach(checkbox => {checkbox.checked = true})
+}
+}
+function change(){//or検索とand検索を切り替えた時の動作
+if(document.getElementById("option").checked){
+document.getElementById('mode').innerHTML = "or";
+sett[0] = 1;
+}else{
+document.getElementById('mode').innerHTML = "and";
+sett[0] = 0;
+}
+}
+function change2(){//検索と選曲を切り替えた時の動作
+if(document.getElementById("option2").checked){
+document.getElementById('mode2').innerHTML = "検索";
+document.getElementById('mode_2').innerHTML = "検索";
+sett[1] = 1;
+}else{
+document.getElementById('mode2').innerHTML = "選曲";
+document.getElementById('mode_2').innerHTML = "選曲";
+sett[1] = 0;
+}
+}
+</script>
+<script src="source/source_expert.js">//expert定義ファイル</script>
+<script src="source/source_master.js">//master定義ファイル</script>
+<script src="source/source_append.js">//append定義ファイル</script>
+</html>
