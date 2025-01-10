@@ -499,5 +499,6 @@ const sause_master = [
 {id:498,name:"snooze",level:"m32",type:[2,3,5,6,9,10,12,13,15,16,21,22]},
 {id:499,name:"ワールド・ランプシェード [reunion]",level:"m30",type:[5,9,10,11]},
 {id:500,name:"のだ",level:"m30",type:[5,7,9,10,11,12,16,23]},
-{id:501,name:"サイハテ",level:"m28",type:[4,9,11,12,22]}
+{id:501,name:"サイハテ",level:"m28",type:[4,9,11,12,22]},
+{id:502,name:"Henceforth",level:"m29",type:[]}
 ]
