@@ -501,5 +501,5 @@ const sause_master = [
 {id:500,name:"のだ",level:"m30",type:[5,7,9,10,11,12,16,23]},
 {id:501,name:"サイハテ",level:"m28",type:[4,9,11,12,22]},
 {id:502,name:"Henceforth",level:"m29",type:[5,9,22]},
-{id:502,name:"厨病激発ボーイ",level:"m32",type:[5,6,11,12,15,23]}
+{id:503,name:"厨病激発ボーイ",level:"m32",type:[5,6,11,12,15,23]}
 ]
