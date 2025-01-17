@@ -75,5 +75,6 @@ const sause_append = [
 {id:74,name:"アンヘル(APD)",level:"a33",type:[5,11,16,21,22,23]},
 {id:75,name:"プロトディスコ(APD)",level:"a34",type:[3,18,21,24]},
 {id:76,name:"snooze(APD)",level:"a33",type:[5,9,11,12,22,23]},
-{id:77,name:"のだ(APD)",level:"a33",type:[4,10,11,12,22,23,24]}
+{id:77,name:"のだ(APD)",level:"a33",type:[4,10,11,12,22,23,24]},
+{id:77,name:"仮死化(APD)",level:"a28",type:[4,10,11,12,22,23,24]}
 ]
