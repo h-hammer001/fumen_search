@@ -14,5 +14,5 @@ const sause_expert = [
 {id:13,name:"嬢王(EXP)",level:"e31",type:[6,9,11,13,20]},
 {id:14,name:"おぎゃりないざー(EXP)",level:"e31",type:[1,4,9,11,18,20,23]},
 {id:15,name:"ダイジョブですか？(EXP)",level:"e31",type:[5,7,9,10,11,16,17,20,22,23]},
-{id:16,name:"メモリア(EXP)",level:"e31",type:[6,9,11,17,19,20,24]}
+{id:16,name:"メモリア(EXP)",level:"e31",type:[6,9,11,17,19,20,24]}/*,*/
 ]
