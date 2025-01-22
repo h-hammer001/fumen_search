@@ -77,5 +77,7 @@ const sause_append = [
 {id:76,name:"snooze(APD)",level:"a33",type:[5,9,11,12,22,23]},
 {id:77,name:"のだ(APD)",level:"a33",type:[4,10,11,12,22,23,24]},
 {id:78,name:"仮死化(APD)",level:"a28",type:[]},
-{id:79,name:"ワンスアポンアドリーム(APD)",level:"a28",type:[]}
+{id:79,name:"ワンスアポンアドリーム(APD)",level:"a28",type:[]}/*,
+{id:80,name:"「1」(APD)",level:"a28",type:[]},
+{id:81,name:"ハッピーシンセサイザ(APD)",level:"a28",type:[]},*/
 ]
