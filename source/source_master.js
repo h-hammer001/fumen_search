@@ -505,7 +505,7 @@ const sause_master = [
 {id:504,name:"ヘイヴン",level:"m30",type:[6,7,11,12,15,16,23]},
 {id:505,name:"夏に透明",level:"m28",type:[4,7,11,16]},
 {id:506,name:"パンダヒーロー",level:"m30",type:[5,6,13,15]},
-{id:507,name:"結ンデ開イテ羅刹ト骸",level:"m29",type:[]}/*,
+{id:507,name:"結ンデ開イテ羅刹ト骸",level:"m29",type:[2,11,15,18,23]}/*,
 {id:5,name:"ルルブ",level:"m28",type:[]},
 {id:5,name:"クリスタルスノウ",level:"m28",type:[]},
 {id:5,name:"終焉逃避行",level:"m28",type:[]},
