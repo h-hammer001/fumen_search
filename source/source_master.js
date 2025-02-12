@@ -509,14 +509,15 @@ const sause_master = [
 {id:508,name:"ファイアダンス",level:"m29",type:[5,6,11,13,15,23]},
 {id:509,name:"そこに在る、光。",level:"m27",type:[1,5,7,9,15,23]},
 {id:510,name:"Worlders",level:"m28",type:[4,6,7,13,15,21]},
-{id:511,name:"FUN!!",level:"m29",type:[5,9]},/*,
+{id:511,name:"FUN!!",level:"m29",type:[5,9]},
+{id:512,name:"終焉逃避行",level:"m29",type:[]},
+{id:513,name:"スマイル*シンフォニー",level:"m28",type:[]},
+{id:514,name:"SToRY",level:"m29",type:[]},
+{id:515,name:"クリスタルスノウ",level:"m26",type:[]},
+{id:516,name:"ハローセカイ",level:"m28",type:[]},
+{id:517,name:"アンチユー",level:"m28",type:[]}/*,
 {id:5,name:"ルルブ",level:"m28",type:[]},
-{id:5,name:"クリスタルスノウ",level:"m28",type:[]},
-{id:5,name:"終焉逃避行",level:"m28",type:[]},
 {id:5,name:"ルーマー",level:"m28",type:[]},
 {id:5,name:"失敗作少女",level:"m28",type:[]},
-{id:5,name:"SToRY",level:"m28",type:[]}
-{id:5,name:"スマイル*シンフォニー",level:"m28",type:[]},
-{id:5,name:"ハローセカイ",level:"m28",type:[]},
 {id:5,name:"群青讃歌 劇場版プロジェクトセカイver.",level:"m28",type:[]},*/
 ]
