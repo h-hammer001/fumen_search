@@ -6,7 +6,7 @@
 input[type="checkbox"]:disabled{outline:2px solid black;outline-offset:-2px}
 </style>
 </head>
-<body>
+<body onload="load()">
 <fieldset id="dlfs">
 <legend>難易度で絞り込み</legend>
 <form name="diflv">
@@ -192,8 +192,7 @@ console.log("選ばれたのは「"+extractedNames[rand]+"」でした。")
 }
 }
 }
-</script>
-<script type="text/javascript">//検索時に実行される関数
+//検索時に実行される関数
 function extractIdsByLevel(sause,targetLevels,result_p){//難易度→IDに変換
 const filtered = sause.filter(item => targetLevels.includes(item.level));
 result_p.length = 0;
@@ -211,8 +210,7 @@ const filtered = filteredById.filter(item => targetTypes.every(type => item.type
 result_p.length = 0;
 result_p.push(...filtered.map(item => item.name));
 }
-</script>
-<script type="text/javascript">//オプションに関する関数
+//オプションに関する関数
 function toggleCheckboxes(event,element){//カテゴリまとめてON/OFF
 if(event.target.tagName === 'INPUT' || event.target.tagName === 'LABEL') return;
 const checkboxes = element.querySelectorAll('input[type="checkbox"]');
@@ -243,6 +241,9 @@ document.getElementById('mode2').innerHTML = "選曲";
 document.getElementById('mode_2').innerHTML = "選曲";
 sett[1] = 0;
 }
+}
+function load(){//読み込み時に実行される関数
+console.log("最終更新:2025/2/15 \nEXPERT:なし\nMASTER:終焉逃避行~ルルブ追加\nAPPEND:ハッピーシンセサイザ(APD)追加");
 }
 </script>
 <script src="source/source_expert.js">//expert定義ファイル</script>
