@@ -518,6 +518,6 @@ const sause_master = [
 {id:517,name:"アンチユー",level:"m28",type:[6,11,18]},
 {id:518,name:"ルルブ",level:"m31",type:[4,8,9,12,15,20,23]},
 {id:519,name:"フュージョン",level:"m30",type:[9,12,13]},
-{id:5,name:"ルーマー",level:"m28",type:[4,6,9,13,15,23]}/*,
+{id:520,name:"ルーマー",level:"m28",type:[4,6,9,13,15,23]}/*,
 {id:5,name:"失敗作少女",level:"m28",type:[]},*/
 ]
