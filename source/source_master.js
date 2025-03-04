@@ -519,7 +519,13 @@ const sause_master = [
 {id:518,name:"ルルブ",level:"m31",type:[4,8,9,12,15,20,23]},
 {id:519,name:"フュージョン",level:"m30",type:[9,12,13]},
 {id:520,name:"ルーマー",level:"m28",type:[4,6,9,13,15,23]},
-{id:521,name:"Fire◎Flower (Rerec)",level:"m29",type:[]},
-{id:522,name:"三日月ステップ",level:"m28",type:[]}/*,
-{id:5,name:"失敗作少女",level:"m28",type:[]},*/
+{id:521,name:"Fire◎Flower (Rerec)",level:"m29",type:[1,4,9,22,24]},
+{id:522,name:"三日月ステップ",level:"m28",type:[2,9]}/*,
+{id:52,name:"プラネットヒーロー",level:"m28",type:[]},
+{id:52,name:"オーバーライド",level:"m28",type:[]},
+{id:52,name:"ライアーダンサー",level:"m28",type:[]},
+{id:52,name:"透明エレジー",level:"m28",type:[]},
+{id:52,name:"ドレミファロンド",level:"m28",type:[]},
+{id:52,name:"",level:"m28",type:[]},
+{id:52,name:"失敗作少女",level:"m28",type:[]},*/
 ]
