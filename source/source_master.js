@@ -77,7 +77,7 @@ const sause_master = [
 {id:76,name:"ミルククラウン・オン・ソーネチカ",level:"m30",type:[2,10,19,20]},
 {id:77,name:"タイムマシン",level:"m27",type:[2,9,13]},
 {id:78,name:"drop pop candy",level:"m29",type:[2,5,12]},
-{id:79,name:"ポジティブ☆ダンスタイム",level:"m31",type:[211,12,20]},
+{id:79,name:"ポジティブ☆ダンスタイム",level:"m31",type:[5,11,12,20]},
 {id:80,name:"Brand New Day",level:"m32",type:[5,9,11,20]},
 {id:81,name:"限りなく灰色へ",level:"m31",type:[2,13,18]},
 {id:82,name:"ワンスアポンアドリーム",level:"m28",type:[2,4,5,9,13]},
