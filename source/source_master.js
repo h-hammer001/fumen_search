@@ -1,4 +1,4 @@
-const sause_master = [,
+const sause_master = [
 {id:1,name:"Tell Your World",level:"m26",type:[8,12]},
 {id:2,name:"ネクストネスト",level:"m30",type:[4,5,11,12]},
 {id:3,name:"メルト",level:"m29",type:[1,10,12,13,18]},
