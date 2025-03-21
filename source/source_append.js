@@ -82,6 +82,6 @@ const sause_append = [
 {id:81,name:"ハッピーシンセサイザ(APD)",level:"a29",type:[12,24]},
 {id:82,name:"フュージョン(APD)",level:"a34",type:[4,5,8,10,14,21,25]},
 {id:83,name:"群青讃歌(APD)",level:"a29",type:[24]},
-{id:83,name:"ONESELF(APD)",level:"a33",type:[24]}/*,
-{id:83,name:"ECHO(APD)",level:"a29",type:[]},*/
+{id:84,name:"ONESELF(APD)",level:"a33",type:[24]},
+{id:85,name:"ECHO(APD)",level:"a29",type:[]}/*,*/
 ]
