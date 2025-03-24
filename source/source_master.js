@@ -526,8 +526,8 @@ const sause_master = [
 {id:525,name:"ライアーダンサー",level:"m31",type:[1,5,6,13,17,21,23,24,25]},
 {id:526,name:"プラネットヒーロー",level:"m33",type:[5,6,9,10,12,14,16,17,21,24]},
 {id:527,name:"透明エレジー",level:"m30",type:[4,5,10,12,17]},
-{id:528,name:"D/N/A",level:"m31",type:[3,4,5,6,7,10,13,24]}/*,
-{id:52,name:"ドレミファロンド",level:"m28",type:[]},
+{id:528,name:"D/N/A",level:"m31",type:[3,4,5,6,7,10,13,24]},
+{id:52,name:"ドレミファロンド",level:"m28",type:[]}/*,
 {id:52,name:"",level:"m28",type:[]},
 {id:52,name:"失敗作少女",level:"m28",type:[]},*/
 ]
