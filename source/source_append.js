@@ -1,4 +1,5 @@
 const sause_append = [
+{id:0,name:"初音ミクの激唱 FULLver(APD)",level:"a35",type:"disabled charts"},
 {id:1,name:"Tell Your World(APD)",level:"a25",type:[4,24]},
 {id:2,name:"ヴァンパイア(APD)",level:"a27",type:[8,9,12]},
 {id:3,name:"シネマ(APD)",level:"a29",type:[12]},
@@ -85,5 +86,8 @@ const sause_append = [
 {id:84,name:"ONESELF(APD)",level:"a33",type:[3,4,5,10,12,17,24]},
 {id:85,name:"ECHO(APD)",level:"a29",type:[4,24]},
 {id:86,name:"いちにのさんで(APD)",level:"a24",type:[18,19]},
-{id:87,name:"Sympathy(APD)",level:"a29",type:[12]}/*,*/
+{id:87,name:"Sympathy	(APD)",level:"a29",type:[12]}/*,
+{id:,name:"スーサイドパレヱド(APD)",level:"a29",type:[]},
+{id:,name:"Beyond the way(APD)",level:"a29",type:[]},
+{id:,name:"ショウタイム・ルーラー(APD)",level:"a29",type:[]},*/
 ]
