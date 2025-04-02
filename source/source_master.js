@@ -527,7 +527,17 @@ const sause_master = [
 {id:526,name:"プラネットヒーロー",level:"m33",type:[5,6,9,10,12,14,16,17,21,24]},
 {id:527,name:"透明エレジー",level:"m30",type:[4,5,10,12,17]},
 {id:528,name:"D/N/A",level:"m31",type:[3,4,5,6,7,10,13,24]},
-{id:52,name:"ドレミファロンド",level:"m28",type:[]}/*,
-{id:52,name:"",level:"m28",type:[]},
-{id:52,name:"失敗作少女",level:"m28",type:[]},*/
+{id:529,name:"ドレミファロンド",level:"m27",type:[7,10,16,19]},
+{id:530,name:"Sympathy",level:"m28",type:[6]},
+{id:531,name:"Call!!",level:"m28",type:[1,2,5,10,19]}/*,
+{id:532,name:"吉原ラメント 再来盤",level:"m28",type:[]},
+{id:533,name:"マンハッタン",level:"m28",type:[]},
+{id:534,name:"クイーンオブハート",level:"m28",type:[]},
+{id:535,name:"バレリーコ",level:"m28",type:[]},
+{id:53,name:"花に風",level:"m28",type:[]},
+{id:53,name:"スーサイドパレヱド",level:"m28",type:[]},
+{id:53,name:"星宙メランコリア",level:"m28",type:[]},
+{id:53,name:"回る空うさぎ",level:"m28",type:[]},
+{id:5,name:"",level:"m28",type:[]},
+{id:5,name:"失敗作少女",level:"m28",type:[]},*/
 ]
