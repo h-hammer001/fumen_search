@@ -87,7 +87,11 @@ const sause_append = [
 {id:85,name:"ECHO(APD)",level:"a29",type:[4,24]},
 {id:86,name:"いちにのさんで(APD)",level:"a24",type:[18,19]},
 {id:87,name:"Sympathy(APD)",level:"a29",type:[12]},
-{id:,name:"スーサイドパレヱド(APD)",level:"a29",type:[]},
-{id:,name:"Beyond the way(APD)",level:"a29",type:[]},
-{id:,name:"ショウタイム・ルーラー(APD)",level:"a29",type:[]}/*,*/
+{id:88,name:"Beyond the way(APD)",level:"a29",type:[4,5,10,24]},
+{id:89,name:"スーサイドパレヱド(APD)",level:"a29",type:[2,10,12,14,17,23]},
+{id:90,name:"ショウタイム・ルーラー(APD)",level:"a29",type:[9,12,23,24]},
+{id:91,name:"イフ(APD)",level:"a29",type:[9,10,12]},
+{id:92,name:"チルノのパーフェクトさんすう学園(APD)",level:"a33",type:[]},
+{id:93,name:"とうほう☆ワンダーランド(APD)",level:"a32",type:[]},
+{id:94,name:"超ナイト・オブ・ナイツ(APD)",level:"a36",type:[]},/*,*/
 ]
