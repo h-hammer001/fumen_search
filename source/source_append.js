@@ -91,7 +91,8 @@ const sause_append = [
 {id:89,name:"スーサイドパレヱド(APD)",level:"a29",type:[2,10,12,14,17,23]},
 {id:90,name:"ショウタイム・ルーラー(APD)",level:"a29",type:[9,12,23,24]},
 {id:91,name:"イフ(APD)",level:"a29",type:[9,10,12]},
-{id:92,name:"チルノのパーフェクトさんすう学園(APD)",level:"a33",type:[]},
-{id:93,name:"とうほう☆ワンダーランド(APD)",level:"a32",type:[]},
-{id:94,name:"超ナイト・オブ・ナイツ(APD)",level:"a36",type:[]},/*,*/
+{id:92,name:"チルノのパーフェクトさんすう学園(APD)",level:"a33",type:[22,23,24,25]},
+{id:93,name:"とうほう☆ワンダーランド(APD)",level:"a32",type:[23,24]},
+{id:94,name:"超ナイト・オブ・ナイツ(APD)",level:"a36",type:[22,23,24]},
+{id:95,name:"世界を照らすテトラッド(APD)",level:"a30",type:[]},/*,*/
 ]
