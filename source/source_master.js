@@ -543,7 +543,8 @@ const sause_master = [
 {id:542,name:"とうほう☆ワンダーランド",level:"m31",type:[2,3,10,13,14,16,21]},
 {id:543,name:"超ナイト・オブ・ナイツ",level:"m33",type:[2,4,5,6,8,10,12,13,16,22,23,25]},
 {id:544,name:"虚無さん",level:"m29",type:[6,7,12,19,20,24]},
-{id:545,name:"紗痲",level:"m30",type:[2,12,14]}/*,
-{id:,name:"",level:"m28",type:[]},
-{id:,name:"失敗作少女",level:"m28",type:[]},*/
+{id:545,name:"紗痲",level:"m30",type:[2,12,14,16]},
+{id:546,name:"失敗作少女",level:"m29",type:[10,12,14,16,17]},
+{id:547,name:"フィッシュアンドTips",level:"m30",type:[1,5,6,17,19,24]}/*,
+{id:,name:"",level:"m28",type:[]},*/
 ]
