@@ -6,7 +6,7 @@
 input[type="checkbox"]:disabled{outline:2px solid black;outline-offset:-2px}
 </style>
 </head>
-<body onload="load()">
+<body>
 <fieldset id="dlfs">
 <legend>難易度で絞り込み</legend>
 <form name="diflv">
@@ -79,7 +79,9 @@ input[type="checkbox"]:disabled{outline:2px solid black;outline-offset:-2px}
 <td><label><input type="checkbox" name="tp" checked value="22">敷譜面</label></td>
 <td><label><input type="checkbox" name="tp" checked value="23">譜面停止</label></td>
 <td><label><input type="checkbox" name="tp" checked value="24">スライドのみの速度変化</label></td>
-<td><label><input type="checkbox" name="tp" checked value="25">タップ,フリックを含む速度変化</label></td></tr>
+<td><label><input type="checkbox" name="tp" checked value="25">タップ,フリックを含む速度変化</label></td>
+<td><label><input type="checkbox" name="tp" checked value="26">5k</label></td>
+<td><label><input type="checkbox" name="tp" checked value="27">6k</label></td></tr>
 </table>
 </fieldset>
 </form>
@@ -242,9 +244,6 @@ document.getElementById('mode2').innerHTML = "選曲";
 document.getElementById('mode_2').innerHTML = "選曲";
 sett[1] = 0;
 }
-}
-function load(){//読み込み時に実行される関数
-console.log("最終更新:2025/4/2\nEXPERT:なし\nMASTER:Sympathy~Call!!追加\nAPPEND:いちにのさんで~Sympathy追加");
 }
 </script>
 <script src="source/source_expert.js">//expert定義ファイル</script>
