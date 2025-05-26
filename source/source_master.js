@@ -315,7 +315,7 @@ const sause_master = [
 {id:314,name:"シャンティ",level:"m30",type:[4,5,7,11,12,13,23]},
 {id:315,name:"エターナルアリア",level:"m30",type:[7,9,10,12,17,21,22]},
 {id:316,name:"Blue Star",level:"m29",type:[2,4,11,12,13]},
-{id:317,name:"箱庭のコラル",level:"m27",type:[2,4,12]},
+{id:317,name:"箱庭のコラル",level:"m27",type:[2,4,9,12]},
 {id:318,name:"人生",level:"m37",type:[4,5,7,8,10,11,12,14,16,17,19,21,22,25,27]},
 {id:319,name:"Wonder Style",level:"m28",type:[2,7,8,10,12]},
 {id:320,name:"下剋上",level:"m30",type:[2,4,5,7,24,25]},
@@ -545,6 +545,8 @@ const sause_master = [
 {id:544,name:"虚無さん",level:"m29",type:[6,7,12,19,20,24]},
 {id:545,name:"紗痲",level:"m30",type:[2,12,14,16]},
 {id:546,name:"失敗作少女",level:"m29",type:[10,12,14,16,17]},
-{id:547,name:"フィッシュアンドTips",level:"m30",type:[1,5,6,17,19,24]}/*,
+{id:547,name:"フィッシュアンドTips",level:"m30",type:[1,5,6,17,19,24]},
+{id:548,name:"Connecting",level:"m27",type:[10,12,14,24]},
+{id:549,name:"エンヴィキャットウォーク",level:"m28",type:[23,24]}/*,
 {id:,name:"",level:"m28",type:[]},*/
 ]
