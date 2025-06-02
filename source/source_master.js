@@ -547,6 +547,9 @@ const sause_master = [
 {id:546,name:"失敗作少女",level:"m29",type:[10,12,14,16,17]},
 {id:547,name:"フィッシュアンドTips",level:"m30",type:[1,5,6,17,19,24]},
 {id:548,name:"Connecting",level:"m27",type:[10,12,14,24]},
-{id:549,name:"エンヴィキャットウォーク",level:"m28",type:[23,24]}/*,
+{id:549,name:"エンヴィキャットウォーク",level:"m28",type:[23,24]},
+{id:550,name:"イレヴンズ",level:"m27",type:[4,6,10,14,16]},
+{id:551,name:"光線歌",level:"m28",type:[9,10,12,22]},
+{id:552,name:"テトリス",level:"m29",type:[5,16,17,23,24]}/*,
 {id:,name:"",level:"m28",type:[]},*/
 ]
