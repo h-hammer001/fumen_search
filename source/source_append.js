@@ -97,6 +97,7 @@ const sause_append = [
 {id:95,name:"世界を照らすテトラッド(APD)",level:"a30",type:[10,12,26]},
 {id:96,name:"フラジール(APD)",level:"a28",type:[9,12,14]},
 {id:97,name:"とても痛い痛がりたい(APD)",level:"a30",type:[10,12,13]},
-{id:98,name:"テトリス(APD)",level:"a29",type:[5,9,10,23,24]}/*,
+{id:98,name:"テトリス(APD)",level:"a29",type:[5,9,10,23,24]},
+{id:,name:"トワイライトライト(APD)",level:"a27",type:[4,19]}/*,
 {id:,name:"(APD)",level:"a28",type:[]},*/
 ]
