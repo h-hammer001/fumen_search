@@ -550,6 +550,8 @@ const sause_master = [
 {id:549,name:"エンヴィキャットウォーク",level:"m28",type:[23,24]},
 {id:550,name:"イレヴンズ",level:"m27",type:[4,6,10,14,16]},
 {id:551,name:"光線歌",level:"m28",type:[9,10,12,22]},
-{id:552,name:"テトリス",level:"m29",type:[5,16,17,23,24]}/*,
+{id:552,name:"テトリス",level:"m29",type:[5,16,17,23,24]},
+{id:553,name:"このふざけた素晴らしき世界は、僕の為にある",level:"m29",type:[4,5,6,10,13,14]},
+{id:554,name:"モニタリング",level:"m29",type:[8,10,13,22]}/*,
 {id:,name:"",level:"m28",type:[]},*/
 ]
