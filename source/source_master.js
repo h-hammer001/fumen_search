@@ -554,5 +554,11 @@ const sause_master = [
 {id:553,name:"このふざけた素晴らしき世界は、僕の為にある",level:"m29",type:[4,5,6,10,13,14]},
 {id:554,name:"モニタリング",level:"m29",type:[8,10,13,22]},
 {id:555,name:"庭師のおはなしによると",level:"m31",type:[2,3,4,6,7,8,10,21,22,23,24]}/*,
-{id:,name:"",level:"m28",type:[]},*/
+{id:,name:"",level:"m28",type:[]}
+
+{id:556,name:"Twilight Melody",level:"m28",type:[1,13]},
+{id:557,name:"M@GICAL☆CURE! LOVE ♥ SHOT!",level:"m30",type:[9]},
+{id:558,name:"",level:"m28",type:[]},
+{id:559,name:"",level:"m28",type:[]},
+{id:560,name:"",level:"m28",type:[]},*/
 ]
