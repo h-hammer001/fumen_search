@@ -99,6 +99,7 @@ const sause_append = [
 {id:97,name:"とても痛い痛がりたい(APD)",level:"a30",type:[10,12,13]},
 {id:98,name:"テトリス(APD)",level:"a29",type:[5,9,10,23,24]},
 {id:99,name:"トワイライトライト(APD)",level:"a27",type:[4,19]},
-{id:100,name:"インテグラル(APD)",level:"a29",type:[12,27]}/*,
+{id:100,name:"インテグラル(APD)",level:"a29",type:[12,27]},
+{id:101,name:"RAD DOGS(APD)",level:"a32",type:[4,12,21,24,26]}/*,
 {id:,name:"(APD)",level:"a28",type:[]},*/
 ]
