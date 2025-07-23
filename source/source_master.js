@@ -553,12 +553,16 @@ const sause_master = [
 {id:552,name:"テトリス",level:"m29",type:[5,16,17,23,24]},
 {id:553,name:"このふざけた素晴らしき世界は、僕の為にある",level:"m29",type:[4,5,6,10,13,14]},
 {id:554,name:"モニタリング",level:"m29",type:[8,10,13,22]},
-{id:555,name:"庭師のおはなしによると",level:"m31",type:[2,3,4,6,7,8,10,21,22,23,24]}/*,
-{id:,name:"",level:"m28",type:[]}
-
-{id:556,name:"Twilight Melody",level:"m28",type:[1,13]},
-{id:557,name:"M@GICAL☆CURE! LOVE ♥ SHOT!",level:"m30",type:[9]},
-{id:558,name:"",level:"m28",type:[]},
-{id:559,name:"",level:"m28",type:[]},
-{id:560,name:"",level:"m28",type:[]},*/
+{id:555,name:"庭師のおはなしによると",level:"m31",type:[2,3,4,6,7,8,10,21,22,23,24]},
+{id:556,name:"Twilight Melody",level:"m28",type:[1,4,13]},
+{id:557,name:"M@GICAL☆CURE! LOVE ♥ SHOT!",level:"m30",type:[1,2,9,10,24]},
+{id:558,name:"Hello Builder",level:"m29",type:[2,12,14,19]},
+{id:559,name:"imaginary love story",level:"m31",type:[1,2,5,10,12,13]},
+{id:560,name:"Intergalactic Bound",level:"m26",type:[4,8,12]},
+{id:561,name:"笑えたらえーやん！",level:"m30",type:[7,10,23,24]},
+{id:562,name:"アイリッド",level:"m29",type:[2,5,6,19]},
+{id:563,name:"透明なパレット",level:"m29",type:[3,6,8,14]},
+{id:564,name:"エクスプロウル",level:"m30",type:[1,6,13,16,17,24]},
+{id:565,name:"ありのままのストーリーを",level:"m28",type:[]}/*,
+{id:,name:"",level:"m28",type:[]}*/
 ]
