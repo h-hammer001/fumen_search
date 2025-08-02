@@ -563,6 +563,8 @@ const sause_master = [
 {id:562,name:"アイリッド",level:"m29",type:[2,5,6,19]},
 {id:563,name:"透明なパレット",level:"m29",type:[3,6,8,14]},
 {id:564,name:"エクスプロウル",level:"m30",type:[1,6,13,16,17,24]},
-{id:565,name:"ありのままのストーリーを",level:"m28",type:[]}/*,
+{id:565,name:"ありのままのストーリーを",level:"m28",type:[4,6]},
+{id:566,name:"生きる",level:"m27",type:[3,6,8,24]},
+{id:567,name:"花弁、それにまつわる音声",level:"m29",type:[2,6,10,19,24]}/*,
 {id:,name:"",level:"m28",type:[]}*/
 ]
