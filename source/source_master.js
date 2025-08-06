@@ -565,6 +565,8 @@ const sause_master = [
 {id:564,name:"エクスプロウル",level:"m30",type:[1,6,13,16,17,24]},
 {id:565,name:"ありのままのストーリーを",level:"m28",type:[4,6]},
 {id:566,name:"生きる",level:"m27",type:[3,6,8,24]},
-{id:567,name:"花弁、それにまつわる音声",level:"m29",type:[2,6,10,19,24]}/*,
+{id:567,name:"花弁、それにまつわる音声",level:"m29",type:[2,6,10,19,24]},
+{id:568,name:"マリオネットダンサー",level:"m29",type:[2,3,10,14,19,24]},
+{id:569,name:"Life Will Change",level:"m31",type:[4,5,6,7,8,10,16,19]}/*,
 {id:,name:"",level:"m28",type:[]}*/
 ]
