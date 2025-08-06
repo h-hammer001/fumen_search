@@ -101,8 +101,12 @@ const sause_append = [
 {id:99,name:"トワイライトライト(APD)",level:"a27",type:[4,19]},
 {id:100,name:"インテグラル(APD)",level:"a29",type:[12,27]},
 {id:101,name:"RAD DOGS(APD)",level:"a32",type:[4,12,21,24,26]},
-{id:102,name:"箱庭のコラル(APD)",level:"a28",type:[9]},/*wikiに情報なくてオワタ\(^o^)/(てらてらにはあるから書き忘れかほんとに癖のない譜面かのどっちか)by 2025/7/23 16:37*/
+{id:102,name:"箱庭のコラル(APD)",level:"a28",type:[9]},
 {id:103,name:"てらてら(APD)",level:"a31",type:[5,8,10]},
-{id:104,name:"ありのままのストーリーを(APD)",level:"a28",type:[]}/*,
-{id:,name:"(APD)",level:"a28",type:[]},*/
+{id:104,name:"ありのままのストーリーを(APD)",level:"a28",type:[4]},
+{id:105,name:"生きる(APD)",level:"a32",type:[4,24,27]},
+{id:106,name:"ダブルラリアット(APD)",level:"a28",type:[4,27]}/*,
+{id:107,name:"MOTTO!!(APD)",level:"a28",type:[]},
+{id:108,name:"SAN値直葬(APD)",level:"a37",type:[]},
+{id:,name:"(APD)",level:"a28",type:[]}*/
 ]
