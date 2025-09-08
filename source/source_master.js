@@ -571,6 +571,10 @@ const sause_master = [
 {id:570,name:"アクセラレイト",level:"m31",type:[1,2,6,8,10,12,13,24]},
 {id:571,name:"Surges",level:"m29",type:[6,12,14,16]},
 {id:572,name:"リリィララ",level:"m29",type:[2,4,8,24]},
-{id:573,name:"SAN値直葬",level:"m33",type:[1,2,3,4,6,11,16]}/*,
+{id:573,name:"SAN値直葬",level:"m33",type:[1,2,3,4,6,11,16]},
+{id:574,name:"飾って",level:"m27",type:[6,8,19,24]},
+{id:575,name:"ラストラス",level:"m28",type:[6,9,12,16,24]},
+{id:576,name:"サヨナラ天国また来て地獄",level:"m30",type:[2,5,8,10,14,16,19]},
+{id:577,name:"8.32",level:"m28",type:[12,13,23]}/*,
 {id:,name:"",level:"m28",type:[]}*/
 ]
