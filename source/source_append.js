@@ -106,7 +106,7 @@ const sause_append = [
 {id:104,name:"ありのままのストーリーを(APD)",level:"a28",type:[4]},
 {id:105,name:"生きる(APD)",level:"a32",type:[4,24,27]},
 {id:106,name:"ダブルラリアット(APD)",level:"a28",type:[4,27]},
-{id:107,name:"MOTTO!!(APD)",level:"a28",type:[6,19,27]}/*,
-{id:108,name:"SAN値直葬(APD)",level:"a37",type:[]},
+{id:107,name:"MOTTO!!(APD)",level:"a28",type:[6,19,27]},
+{id:108,name:"SAN値直葬(APD)",level:"a36",type:[3,10,18,23,24,27]}/*,
 {id:,name:"(APD)",level:"a28",type:[]}*/
 ]
